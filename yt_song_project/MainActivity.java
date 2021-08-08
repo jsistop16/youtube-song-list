@@ -8,22 +8,22 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     public void onButton1Clicked(View v) {
-        Toast.makeText(getApplicationContext(), "좋아요를 눌렀습니다!! 제원이 기분좋앙", Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(), "좋아요를 눌렀습니다!! ", Toast.LENGTH_LONG).show();
     }
     public void onButton2Clicked(View v) {
         Toast.makeText(getApplicationContext(), "싫어요를 눌렀습니다!! 힝...", Toast.LENGTH_LONG).show();
     }
     public void onButton3Clicked(View v) {
-        Toast.makeText(getApplicationContext(), "좋아요를 눌렀습니다!! 호이짜", Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(), "좋아요를 눌렀습니다!! ", Toast.LENGTH_LONG).show();
     }
     public void onButton4Clicked(View v) {
         Toast.makeText(getApplicationContext(), "싫어요를 눌렀습니다!!", Toast.LENGTH_LONG).show();
     }
     public void onButton5Clicked(View v) {
-        Toast.makeText(getApplicationContext(), "좋아요를 눌렀습니다!! 뀨우우우", Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(), "좋아요를 눌렀습니다!!", Toast.LENGTH_LONG).show();
     }
     public void onButton6Clicked(View v) {
-        Toast.makeText(getApplicationContext(), "싫어요를 눌렀습니다!! 뒤질래 씹창년아", Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(), "싫어요를 눌렀습니다!!", Toast.LENGTH_LONG).show();
     }
     public void onButton7Clicked(View v) {
         Toast.makeText(getApplicationContext(), "좋아요를 눌렀습니다!!", Toast.LENGTH_LONG).show();

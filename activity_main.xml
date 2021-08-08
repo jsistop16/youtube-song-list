@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="200dp"
+                android:layout_height="120dp"
+                android:src="@drawable/city"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="So good.(Johnny Stimson)\ncover by 제원"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="조회수: 1198회"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="2dp"
+                    android:textSize="12dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="업로드: 4주전"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="2dp"
+                    android:textSize="12dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="좋아요 수: 87"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="2dp"
+                    android:textSize="12dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="싫어요 수: 1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="0dp"
+                    android:textSize="12dp"
+                    />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00BFA5"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/thumbup"
+                android:onClick="onButton1Clicked"
+                app:backgroundTint="@empty" />
+
+            <Button
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/thumbdown"
+                android:onClick="onButton2Clicked"
+                app:backgroundTint="@empty"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="200dp"
+                android:layout_height="120dp"
+                android:src="@drawable/sam"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="This city(Sam Fisher)\ncover by 제원"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="조회수: 1152회"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="2dp"
+                    android:textSize="12dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="업로드: 2개월전"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="2dp"
+                    android:textSize="12dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="좋아요 수: 106"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="2dp"
+                    android:textSize="12dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="싫어요 수: 1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="0dp"
+                    android:textSize="12dp"
+                    />
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00BFA5"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/thumbup"
+                android:onClick="onButton3Clicked"
+                app:backgroundTint="@empty" />
+
+            <Button
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/thumbdown"
+                android:onClick="onButton4Clicked"
+                app:backgroundTint="@empty"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/mysong" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="내 노래는 푸르다(타바스코)-\n9년전 휘문고교 밴드 활동시절에\n보컬을 맡았던 곡입니다!"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="조회수: 401,324,559회"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="2dp"
+                    android:textSize="12dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="업로드: 5개월전"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="2dp"
+                    android:textSize="12dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="좋아요 수: 54,349,993"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="2dp"
+                    android:textSize="12dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="싫어요 수: 0"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="0dp"
+                    android:textSize="12dp"
+                    />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00BFA5"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/thumbup"
+                android:onClick="onButton5Clicked"
+                app:backgroundTint="@empty" />
+
+            <Button
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/thumbdown"
+                android:onClick="onButton6Clicked"
+                app:backgroundTint="@empty"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/meat" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="노래하는 복싱코치의 \n미트 트레이닝...!"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="조회수: 16회"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="2dp"
+                    android:textSize="12dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="업로드: 2일전"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="2dp"
+                    android:textSize="12dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="좋아요 수: 1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="2dp"
+                    android:textSize="12dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="싫어요 수: 0"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="0dp"
+                    android:textSize="12dp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00BFA5"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/thumbup"
+                android:onClick="onButton7Clicked"
+                app:backgroundTint="@empty" />
+
+            <Button
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/thumbdown"
+                android:onClick="onButton8Clicked"
+                app:backgroundTint="@empty"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="120dp"
+                android:src="@drawable/talkingtothemoon"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Talking to the moon\n(Bruno Mars)\ncover by 제원"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="조회수: 489회"
+                        android:textSize="12dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="업로드: 5일전"
+                        android:textSize="12dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="좋아요 수: 20"
+                        android:textSize="12dp"/>
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="싫어요 수: 4"
+                        android:textSize="12dp"/>
+                    
+                </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@id/imageView"
+                        android:layout_width="138dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/b"/>
+
+                    <ImageView
+                        android:id="@id/imageView"
+                        android:layout_width="138dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/c"/>
+
+                    <ImageView
+                        android:id="@id/imageView"
+                        android:layout_width="138dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/d"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@id/imageView"
+                        android:layout_width="138dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/e"/>
+
+                    <ImageView
+                        android:id="@id/imageView"
+                        android:layout_width="138dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/f"/>
+
+                    <ImageView
+                        android:id="@id/imageView"
+                        android:layout_width="138dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/g"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@id/imageView"
+                        android:layout_width="138dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/g"/>
+
+                    <ImageView
+                        android:id="@id/imageView"
+                        android:layout_width="138dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/h"/>
+
+                    <ImageView
+                        android:id="@id/imageView"
+                        android:layout_width="138dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/i"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@id/imageView"
+                        android:layout_width="138dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/j"/>
+
+                    <ImageView
+                        android:id="@id/imageView"
+                        android:layout_width="138dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/k"/>
+
+                    <ImageView
+                        android:id="@id/imageView"
+                        android:layout_width="138dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/l"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@id/imageView"
+                        android:layout_width="138dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/m"/>
+
+                    <ImageView
+                        android:id="@id/imageView"
+                        android:layout_width="138dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/n"/>
+
+                    <ImageView
+                        android:id="@id/imageView"
+                        android:layout_width="138dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/o"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@id/imageView"
+                        android:layout_width="138dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/p"/>
+
+                    <ImageView
+                        android:id="@id/imageView"
+                        android:layout_width="138dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/q"/>
+
+                    <ImageView
+                        android:id="@id/imageView"
+                        android:layout_width="138dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/r"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@id/imageView"
+                        android:layout_width="138dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/s"/>
+
+                    <ImageView
+                        android:id="@id/imageView"
+                        android:layout_width="138dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/t"/>
+
+                    <ImageView
+                        android:id="@id/imageView"
+                        android:layout_width="138dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/u"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@id/imageView"
+                        android:layout_width="138dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/v"/>
+
+                    <ImageView
+                        android:id="@id/imageView"
+                        android:layout_width="138dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/w"/>
+
+                    <ImageView
+                        android:id="@id/imageView"
+                        android:layout_width="138dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/x"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@id/imageView"
+                        android:layout_width="138dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/y"/>
+
+                    <ImageView
+                        android:id="@id/imageView"
+                        android:layout_width="138dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/z"/>
+
+                    <ImageView
+                        android:id="@id/imageView"
+                        android:layout_width="138dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/za"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@id/imageView"
+                        android:layout_width="138dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/zb"/>
+
+                    <ImageView
+                        android:id="@id/imageView"
+                        android:layout_width="138dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/zc"/>
+
+                    <ImageView
+                        android:id="@id/imageView"
+                        android:layout_width="138dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/zd"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+</ScrollView>

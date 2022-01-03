@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(getApplicationContext(), "좋아요를 눌렀습니다!! ", Toast.LENGTH_LONG).show();
     }
     public void onButton2Clicked(View v) {
-        Toast.makeText(getApplicationContext(), "싫어요를 눌렀습니다!! 힝...", Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(), "싫어요를 눌렀습니다!! ", Toast.LENGTH_LONG).show();
     }
     public void onButton3Clicked(View v) {
         Toast.makeText(getApplicationContext(), "좋아요를 눌렀습니다!! ", Toast.LENGTH_LONG).show();
